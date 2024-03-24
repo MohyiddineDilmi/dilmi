@@ -1,0 +1,41 @@
+{
+  "files": {
+    "main.css": "/dilmi/static/css/main.52dc5ac2.css",
+    "main.js": "/dilmi/static/js/main.6b7c53ee.js",
+    "static/js/453.3b3787d7.chunk.js": "/dilmi/static/js/453.3b3787d7.chunk.js",
+    "static/media/coodiv_bg.png": "/dilmi/static/media/coodiv_bg.7685384e7290e507596a.png",
+    "static/media/air.png": "/dilmi/static/media/air.a622881208f2e7408f59.png",
+    "static/media/shoof.png": "/dilmi/static/media/shoof.75bba932d1ad36ce0929.png",
+    "static/media/dilmi.png": "/dilmi/static/media/dilmi.49354b7c0f64283ef942.png",
+    "static/media/NCTTorin-Light.ttf": "/dilmi/static/media/NCTTorin-Light.fbe7233577ed9c292b21.ttf",
+    "static/media/NCTTorin-Regular.ttf": "/dilmi/static/media/NCTTorin-Regular.b5d158eefa20dabfeba7.ttf",
+    "static/media/NCTTorin-Bold.ttf": "/dilmi/static/media/NCTTorin-Bold.c3d1825820b7a94a8b76.ttf",
+    "static/media/NCTTorin-ExtraBold.ttf": "/dilmi/static/media/NCTTorin-ExtraBold.ab1733201c46ef8062ad.ttf",
+    "static/media/aisec.png": "/dilmi/static/media/aisec.46cefb1e03961367f315.png",
+    "static/media/graphia.png": "/dilmi/static/media/graphia.f7509412f93d160136c5.png",
+    "static/media/tf.png": "/dilmi/static/media/tf.7fe2411e153240759665.png",
+    "static/media/skills.svg": "/dilmi/static/media/skills.130416a729f22f95aa914790b8f543ed.svg",
+    "static/media/tc.png": "/dilmi/static/media/tc.0eccc732a99d34862000.png",
+    "static/media/coodiv.png": "/dilmi/static/media/coodiv.c5dda3aacb7ed53ae0ae.png",
+    "static/media/universite-abdelhamid-mehri-constantine-2-logo-3923299C66-seeklogo.com.png": "/dilmi/static/media/universite-abdelhamid-mehri-constantine-2-logo-3923299C66-seeklogo.com.2ee7716db8a023cde2c7.png",
+    "static/media/info.png": "/dilmi/static/media/info.d0a327d627694548ea8c.png",
+    "static/media/graphiax.png": "/dilmi/static/media/graphiax.1fcaae3a8d6659f0b431.png",
+    "static/media/nbc.png": "/dilmi/static/media/nbc.251c60115f456c18749f.png",
+    "static/media/microchip-solid.svg": "/dilmi/static/media/microchip-solid.8aeb61515605b963573c4f7fa73c4e95.svg",
+    "static/media/certificate-solid.svg": "/dilmi/static/media/certificate-solid.ab5418e4700979823fe8faea8b5a55a5.svg",
+    "static/media/brain-solid.svg": "/dilmi/static/media/brain-solid.f806a8279489cc05e161a36ac1af3023.svg",
+    "static/media/circle-nodes-solid-white.svg": "/dilmi/static/media/circle-nodes-solid-white.e9fb01b6ffa6864dc47c8c631798f565.svg",
+    "static/media/circle-nodes-solid.svg": "/dilmi/static/media/circle-nodes-solid.0cacb4cbc1bed8820f2e6fd6f241d6ee.svg",
+    "index.html": "/dilmi/index.html",
+    "static/media/user-tie-solid.svg": "/dilmi/static/media/user-tie-solid.59a5b440db5874ec7d2bea1cb961dbe1.svg",
+    "static/media/share-nodes-solid.svg": "/dilmi/static/media/share-nodes-solid.78d48c31a926e9a3a544c4cd4883201e.svg",
+    "static/media/book-open-reader-solid.svg": "/dilmi/static/media/book-open-reader-solid.8647c3d12e105286a3014eb2406ec1e2.svg",
+    "main.52dc5ac2.css.map": "/dilmi/static/css/main.52dc5ac2.css.map",
+    "main.6b7c53ee.js.map": "/dilmi/static/js/main.6b7c53ee.js.map",
+    "453.3b3787d7.chunk.js.map": "/dilmi/static/js/453.3b3787d7.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.52dc5ac2.css",
+    "static/js/main.6b7c53ee.js"
+  ]
+}
