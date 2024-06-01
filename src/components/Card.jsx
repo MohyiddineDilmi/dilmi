@@ -1,6 +1,7 @@
 import * as React from 'react';
 import { styled } from '@mui/material/styles';
 import Card from '@mui/material/Card';
+import { Chip, Avatar } from '@mui/material';
 import CardHeader from '@mui/material/CardHeader';
 import CardMedia from '@mui/material/CardMedia';
 import CardContent from '@mui/material/CardContent';
@@ -11,7 +12,9 @@ import Typography from '@mui/material/Typography';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 import Bg from '../assets/graphiax.png';
 import styles from '../modules/styles.module.css';
+import  faLink  from '../assets/icons/link-solid.svg';
 
+import LinkIcon from '@mui/icons-material/Link';
 
 
 
@@ -26,7 +29,7 @@ const ExpandMore = styled((props) => {
     }),
     }));
 
-export default function RecipeReviewCard({title, subheader, description, logo}) {
+export default function RecipeReviewCard({title, subheader, description, logo, link, readmore}) {
   const [expanded, setExpanded] = React.useState(false);
 
   const handleExpandClick = () => {
@@ -34,7 +37,7 @@ export default function RecipeReviewCard({title, subheader, description, logo}) 
   };
 
   return (
-    <Card sx={{ maxWidth: 300, borderRadius: '36px' }}>
+    <Card sx={{ maxWidth: 300, borderRadius: '28px' }}>
       <CardHeader
         
         title={
@@ -69,6 +72,13 @@ export default function RecipeReviewCard({title, subheader, description, logo}) 
         </Typography>
       </CardContent>
       <CardActions disableSpacing>
+      
+          <a href={link} target="_blank">
+            <IconButton aria-label="share">
+              <LinkIcon/>
+            </IconButton>
+            </a>
+      
         <ExpandMore
           expand={expanded}
           onClick={handleExpandClick}
@@ -80,20 +90,10 @@ export default function RecipeReviewCard({title, subheader, description, logo}) 
       </CardActions>
       <Collapse in={expanded} timeout="auto" unmountOnExit>
         <CardContent>
-          <Typography paragraph fontFamily="NCTTorin-Regular">Method:</Typography>
-          <Typography paragraph fontFamily="NCTTorin-Regular">
-            Heat 1/2 cup of the broth in a pot until simmering, add saffron and set
-            aside for 10 minutes.
+          <Typography variant="body2" color="text.secondary" paragraph fontFamily="NCTTorin-Regular">
+            {readmore}
           </Typography>
-          <Typography paragraph fontFamily="NCTTorin-Regular">
-            Heat oil in a (14- to 16-inch) paella pan or a large, deep skillet over
-            medium-high heat. Add chicken, shrimp and chorizo, and cook, stirring
-            occasionally until lightly browned, 6 to 8 minutes. Transfer shrimp to a
-            large plate and set aside, leaving chicken and chorizo in the pan. Add
-            pimentón, bay leaves, garlic, tomatoes, onion, salt and pepper, and cook,
-            stirring often until thickened and fragrant, about 10 minutes. Add
-            saffron broth and remaining 4 1/2 cups chicken broth; bring to a boil.
-          </Typography>
+        
         </CardContent>
       </Collapse>
     </Card>

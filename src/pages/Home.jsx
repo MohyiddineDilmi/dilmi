@@ -5,6 +5,7 @@ import Certifications from '../sections/Certifications';
 import Academic from '../sections/Academic';
 import Professional from '../sections/Professional';
 import Header from '../sections/Header'
+import Footer from '../sections/Footer'
 
 
 
@@ -17,6 +18,7 @@ function Home() {
       <Certifications/>
       <Projects/>
       <Skills/>
+      <Footer/>
     </div>
   );
 }

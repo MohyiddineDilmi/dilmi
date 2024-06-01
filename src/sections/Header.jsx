@@ -33,7 +33,7 @@ function Certifications() {
                         <ImgCard
                             title="Mohyiddine Dilmi"
                             logo={signatureImg}
-                            year="Software Engineer | Interest: Machine Learning "
+                            year="Software Engineer | Interests on "
                             link="text"
                         />
                     </Grid>
@@ -47,14 +47,8 @@ function Certifications() {
                             alt="Founder"
                         />
                     </Grid>
-                </div>
-        
-                
-
-                
-            </Grid>
-
-          
+                </div>          
+            </Grid>    
         </div>
     </div>
     

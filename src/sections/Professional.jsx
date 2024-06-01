@@ -12,13 +12,17 @@ import InfoLogo from '../assets/logos/info.png'
 import NbcLogo from '../assets/logos/nbc.png';
 import CoodivLogo from '../assets/logos/coodiv.png';
 import AiesecLogo from '../assets/logos/aisec.png';
+import shLogo from '../assets/logos/shoof.png';
+import gaLogo from '../assets/logos/gameaddik.png'
 
 
 function Professional() {
 
   const itemData = [
-    { id: 0, logo: InfoLogo, title: "Networks Engineer", year: "2023 - Present @ InfoSignal", description: " — Alberta, Canada"},
+    { id: 0, logo: gaLogo, title: "Backend Developer", year: "2024 - Present @ GameAddik", description: " — Montreal, Canada"},
+    { id: 0, logo: InfoLogo, title: "Networks Engineer", year: "2023 - 2024 @ InfoSignal", description: " — Alberta, Canada"},
     { id: 1, logo: NbcLogo, title: "DevOps Engineer", year: "2022 - 2023 @ National Bank of Canada", description: " — Montreal, Canada"},
+    { id: 1, logo: shLogo, title: "Project Lead & Solution Architect", year: "2019 - 2022 @ SHOOF Global", description: " — Ontario, Canada"},
     { id: 2, logo: CoodivLogo, title: "Full Stack Developer", year: "2016 - 2019 @ Coodiv", description: " — Setif, Algeria"},
     { id: 3, logo: AiesecLogo, title: "Mobile Developer ", year: "2018 @ AIESEC", description: " — Palembang, Indonesia"},
   ];
