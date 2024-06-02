@@ -13,7 +13,7 @@ import NbcLogo from '../assets/logos/nbc.png';
 import CoodivLogo from '../assets/logos/coodiv.png';
 import AiesecLogo from '../assets/logos/aisec.png';
 import shLogo from '../assets/logos/shoof.png';
-import gaLogo from '../assets/logos/gameaddik.png'
+import gaLogo from '../assets/logos/gameaddik_logo.jpg'
 
 
 function Professional() {

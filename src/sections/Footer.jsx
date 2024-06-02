@@ -36,7 +36,10 @@ const Footer = () => {
   };
 
   return (
-    <div style={{margin: '60px auto'}}>
+    <div 
+      style={{
+        margin: 'auto',
+        paddingBottom: 40}}>
       <div>
         <button onClick={handleLinkedinClick} style={buttonStyle}>
           <FontAwesomeIcon icon={faLinkedin} style={{ marginRight: '5px' }} />
