@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.724d533e.css",
-    "main.js": "/static/js/main.4c2a96f3.js",
+    "main.js": "/static/js/main.8a313e83.js",
     "static/js/453.3b3787d7.chunk.js": "/static/js/453.3b3787d7.chunk.js",
     "static/media/coodiv_bg.png": "/static/media/coodiv_bg.7685384e7290e507596a.png",
     "static/media/air.png": "/static/media/air.a622881208f2e7408f59.png",
@@ -19,9 +19,7 @@
     "static/media/coodiv.png": "/static/media/coodiv.c5dda3aacb7ed53ae0ae.png",
     "static/media/universite-abdelhamid-mehri-constantine-2-logo-3923299C66-seeklogo.com.png": "/static/media/universite-abdelhamid-mehri-constantine-2-logo-3923299C66-seeklogo.com.2ee7716db8a023cde2c7.png",
     "static/media/info.png": "/static/media/info.d0a327d627694548ea8c.png",
-    "static/media/graphiax.png": "/static/media/graphiax.1fcaae3a8d6659f0b431.png",
     "static/media/nbc.png": "/static/media/nbc.251c60115f456c18749f.png",
-    "static/media/link-solid.svg": "/static/media/link-solid.96d3b25b57d924f46cc6bd649c82fb5b.svg",
     "static/media/microchip-solid.svg": "/static/media/microchip-solid.8aeb61515605b963573c4f7fa73c4e95.svg",
     "static/media/certificate-solid.svg": "/static/media/certificate-solid.ab5418e4700979823fe8faea8b5a55a5.svg",
     "static/media/brain-solid.svg": "/static/media/brain-solid.f806a8279489cc05e161a36ac1af3023.svg",
@@ -32,11 +30,11 @@
     "static/media/share-nodes-solid.svg": "/static/media/share-nodes-solid.78d48c31a926e9a3a544c4cd4883201e.svg",
     "static/media/book-open-reader-solid.svg": "/static/media/book-open-reader-solid.8647c3d12e105286a3014eb2406ec1e2.svg",
     "main.724d533e.css.map": "/static/css/main.724d533e.css.map",
-    "main.4c2a96f3.js.map": "/static/js/main.4c2a96f3.js.map",
+    "main.8a313e83.js.map": "/static/js/main.8a313e83.js.map",
     "453.3b3787d7.chunk.js.map": "/static/js/453.3b3787d7.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.724d533e.css",
-    "static/js/main.4c2a96f3.js"
+    "static/js/main.8a313e83.js"
   ]
 }
