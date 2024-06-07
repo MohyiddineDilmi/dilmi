@@ -4,44 +4,55 @@ import Skills from '../sections/Skills';
 import Certifications from '../sections/Certifications';
 import Academic from '../sections/Academic';
 import Professional from '../sections/Professional';
-import Header from '../sections/Header'
-import Footer from '../sections/Footer'
-import { useScroll, useTransform, motion, useMotionTemplate, useMotionValue, animate } from "framer-motion"; 
-import { useRef, useEffect } from "react"; 
-
+import Header from '../sections/Header';
+import Footer from '../sections/Footer';
+import {
+  useScroll,
+  useTransform,
+  motion,
+  useMotionTemplate,
+  useMotionValue,
+  animate,
+} from 'framer-motion';
+import { useRef, useEffect } from 'react';
 
 function Home() {
-
-  const COLORS = ['#18FF04','#18FF04', '#AD00FF', '#00FFD1', '#00D1FF', '#FF6F07']; 
-  const color = useMotionValue(COLORS[0]);  
-  const backgroundImage = useMotionTemplate`radial-gradient(200% 150% at 0% 10%, #121212 50%, ${color})`; 
+  const COLORS = [
+    '#18FF04',
+    '#18FF04',
+    '#AD00FF',
+    '#00FFD1',
+    '#00D1FF',
+    '#FF6F07',
+  ];
+  const color = useMotionValue(COLORS[0]);
+  const backgroundImage = useMotionTemplate`radial-gradient(200% 150% at 0% 10%, #121212 50%, ${color})`;
 
   useEffect(() => {
-      animate(color, COLORS, {
-          ease: 'easeInOut',
-          duration: 10,
-          repeat: Infinity,
-          repeatType: 'mirror'
-      }); 
+    animate(color, COLORS, {
+      ease: 'easeInOut',
+      duration: 10,
+      repeat: Infinity,
+      repeatType: 'mirror',
+    });
   }, []);
-
 
   return (
     <motion.div
-     className="home"
-     style={{
-      background: backgroundImage,
-      minHeight: '100vh', 
-      width: '100%', 
-    }}
-      >
-      <Header/>
-      <Academic/>
-      <Professional/>
-      <Certifications/>
-      <Projects/>
-      <Skills/>
-      <Footer/>
+      className="home"
+      style={{
+        background: backgroundImage,
+        minHeight: '100vh',
+        width: '100%',
+      }}
+    >
+      <Header />
+      <Academic />
+      <Professional />
+      <Certifications />
+      <Projects />
+      <Skills />
+      <Footer />
     </motion.div>
   );
 }

@@ -7,32 +7,38 @@ import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
 import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
-import Img from '../assets/logos/tf.png'
+import Img from '../assets/logos/tf.png';
 import { faBook } from '@fortawesome/free-solid-svg-icons';
-import  faCer  from '../assets/icons/certificate-solid.svg';
+import faCer from '../assets/icons/certificate-solid.svg';
 
-
-
-export default function ImgMediaCard({title, year, logo, link}) {
-
-
-
-
+export default function ImgMediaCard({ title, year, logo, link }) {
   return (
-    <Card sx={{ maxWidth: 345, borderRadius: '36px', backgroundColor: '#050505' ,display: 'flex', justifyContent: 'center', alignItems: 'center', flexDirection: 'column', border: 'none' }}>
+    <Card
+      sx={{
+        maxWidth: 345,
+        borderRadius: '36px',
+        backgroundColor: '#050505',
+        display: 'flex',
+        justifyContent: 'center',
+        alignItems: 'center',
+        flexDirection: 'column',
+        border: 'none',
+      }}
+    >
       <CardMedia
         component="img"
         alt="green iguana"
         height="80"
         image={logo}
-        sx={{width: '120px'}}// Set background color to transparent
+        sx={{ width: '120px' }} // Set background color to transparent
       />
       <CardContent>
-        <Typography 
-            gutterBottom variant="h5" 
-            component="div"
-            color="text.primary"
-            fontFamily="NCTTorin-Bold"
+        <Typography
+          gutterBottom
+          variant="h5"
+          component="div"
+          color="text.primary"
+          fontFamily="NCTTorin-Bold"
         >
           {title}
         </Typography>
@@ -47,14 +53,13 @@ export default function ImgMediaCard({title, year, logo, link}) {
           rel="noopener noreferrer"
           style={{ textDecoration: 'none', color: 'inherit' }}
         >
-            <Chip
-                avatar={<Avatar alt="Natacha" src={faCer} />}
-                label="View Certificate"
-                variant="outlined"
-            />
+          <Chip
+            avatar={<Avatar alt="Natacha" src={faCer} />}
+            label="View Certificate"
+            variant="outlined"
+          />
         </a>
       </CardActions>
-     
     </Card>
   );
 }

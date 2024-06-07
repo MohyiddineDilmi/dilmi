@@ -1,12 +1,18 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faDiscord, faLinkedin, faInstagram } from '@fortawesome/free-brands-svg-icons';
+import {
+  faDiscord,
+  faLinkedin,
+  faInstagram,
+} from '@fortawesome/free-brands-svg-icons';
 
 const Footer = () => {
-
   const handleInstagramClick = () => {
     // Redirect the user to the Discord URL
-    window.open('https://www.instagram.com/dilmixplorer?igsh=MW5sbHhqNjQ3eDc4eQ==', '_blank');
+    window.open(
+      'https://www.instagram.com/dilmixplorer?igsh=MW5sbHhqNjQ3eDc4eQ==',
+      '_blank'
+    );
   };
 
   const handleDiscordClick = () => {
@@ -16,7 +22,10 @@ const Footer = () => {
 
   const handleLinkedinClick = () => {
     // Redirect the user to the Discord URL
-    window.open('https://www.linkedin.com/in/mohyiddine-dilmi-55b549196/', '_blank');
+    window.open(
+      'https://www.linkedin.com/in/mohyiddine-dilmi-55b549196/',
+      '_blank'
+    );
   };
 
   const buttonStyle = {
@@ -32,14 +41,16 @@ const Footer = () => {
     fontWeight: 'bold',
     cursor: 'pointer',
     justifyContent: 'center', // Center the icon and text horizontally
-    border: 'none'
+    border: 'none',
   };
 
   return (
-    <div 
+    <div
       style={{
         margin: 'auto',
-        paddingBottom: 40}}>
+        paddingBottom: 40,
+      }}
+    >
       <div>
         <button onClick={handleLinkedinClick} style={buttonStyle}>
           <FontAwesomeIcon icon={faLinkedin} style={{ marginRight: '5px' }} />

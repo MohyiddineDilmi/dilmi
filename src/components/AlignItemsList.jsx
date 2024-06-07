@@ -12,19 +12,19 @@ export default function AlignItemsList({ logo, title, year, description }) {
     <List sx={{ width: '100%', maxWidth: 680, bgcolor: 'background.paper' }}>
       <ListItem alignItems="flex-start">
         <ListItemAvatar>
-          <Avatar alt="Remy Sharp" src={logo} style={{  marginRight: '20px' }} />
+          <Avatar alt="Remy Sharp" src={logo} style={{ marginRight: '20px' }} />
         </ListItemAvatar>
         <ListItemText
           primary={
             <Typography
-                sx={{ display: 'inline' }}
-                component="span"
-                variant="h6"
-                color="text.primary"
-                fontFamily="NCTTorin-Bold"
-              >
-                {title}
-              </Typography>
+              sx={{ display: 'inline' }}
+              component="span"
+              variant="h6"
+              color="text.primary"
+              fontFamily="NCTTorin-Bold"
+            >
+              {title}
+            </Typography>
           }
           secondary={
             <React.Fragment>

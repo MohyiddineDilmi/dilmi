@@ -3,19 +3,18 @@ import { ThemeProvider, createTheme } from '@mui/material/styles';
 import CssBaseline from '@mui/material/CssBaseline';
 import Home from './pages/Home';
 
-
 const darkTheme = createTheme({
-    palette: {
-      mode: 'dark',
-    },
-  });
+  palette: {
+    mode: 'dark',
+  },
+});
 
 function App() {
   return (
     <div className="App">
       <ThemeProvider theme={darkTheme}>
-        <CssBaseline />        
-          <Home/>
+        <CssBaseline />
+        <Home />
       </ThemeProvider>
     </div>
   );
