@@ -57,7 +57,7 @@ function Professional() {
 
   return (
     <div>
-      <IconShape color="#00D1FF" title="Professional" myIcon={MyIcon} />
+      <IconShape color="#00D1FF" title="Professional" myIcon={MyIcon}/>
       <div style={{ maxWidth: '1080px', margin: '60px auto' }}>
         {experience.map(
           ({ id, companyLogo, jobTitle, workPeriod, location }) => (

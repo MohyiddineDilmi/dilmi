@@ -7,19 +7,16 @@ import Professional from '../sections/Professional';
 import Header from '../sections/Header';
 import Footer from '../sections/Footer';
 import {
-  useScroll,
-  useTransform,
   motion,
   useMotionTemplate,
   useMotionValue,
   animate,
 } from 'framer-motion';
-import { useRef, useEffect } from 'react';
+import { useEffect } from 'react';
 
 function Home() {
   const COLORS = [
-    '#18FF04',
-    '#18FF04',
+    '#121212',
     '#AD00FF',
     '#00FFD1',
     '#00D1FF',
@@ -44,6 +41,8 @@ function Home() {
         background: backgroundImage,
         minHeight: '100vh',
         width: '100%',
+        position: 'relative',
+        zIndex: 1
       }}
     >
       <Header />

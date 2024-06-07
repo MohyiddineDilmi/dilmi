@@ -1,9 +1,5 @@
 import React from 'react';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faCodepen } from '@fortawesome/free-brands-svg-icons';
-import { library } from '@fortawesome/fontawesome-svg-core';
 import styles from '../modules/styles.module.css';
-import MyIcon from '../assets/icons/share-nodes-solid.svg';
 
 const IconShape = ({ color, title, myIcon }) => {
   return (

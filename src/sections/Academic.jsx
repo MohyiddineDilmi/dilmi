@@ -1,11 +1,5 @@
 import * as React from 'react';
-import styles from '../modules/styles.module.css';
-import Card from '../components/Card';
-import { motion } from 'framer-motion';
-import Grid from '@mui/material/Unstable_Grid2'; // Grid version 2
 import IconShape from '../components/IconShape';
-import { faInstagram } from '@fortawesome/free-solid-svg-icons';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import MyIcon from '../assets/icons/book-open-reader-solid.svg';
 import AlignItemsList from '../components/AlignItemsList';
 import MyLogo from '../assets/logos/universite-abdelhamid-mehri-constantine-2-logo-3923299C66-seeklogo.com.png';

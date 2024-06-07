@@ -1,14 +1,9 @@
 import * as React from 'react';
 import Card from '@mui/material/Card';
 import { Chip, Avatar } from '@mui/material';
-
-import CardActions from '@mui/material/CardActions';
 import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
-import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
-import Img from '../assets/logos/tf.png';
-import { faBook } from '@fortawesome/free-solid-svg-icons';
 import faCer from '../assets/icons/circle-nodes-solid-white.svg';
 import faMicro from '../assets/icons/microchip-solid.svg';
 import faBrain from '../assets/icons/brain-solid.svg';

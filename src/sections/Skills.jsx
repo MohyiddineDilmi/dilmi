@@ -1,12 +1,6 @@
 import * as React from 'react'; // Import React and all its exports
-import styles from '../modules/styles.module.css'; // Import CSS module for styles
-import Card from '../components/Card'; // Import Card component
-import { useRef, useEffect } from 'react'; // Import useRef and useEffect hooks from React
-
-import Grid from '@mui/material/Unstable_Grid2'; // Import Grid component from MUI (version 2)
+import { useRef } from 'react'; // Import useRef and useEffect hooks from React
 import IconShape from '../components/IconShape'; // Import IconShape component
-import { faInstagram } from '@fortawesome/free-solid-svg-icons'; // Import Instagram icon from FontAwesome
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'; // Import FontAwesomeIcon component
 import MyIcon from '../assets/icons/circle-nodes-solid.svg'; // Import custom SVG icon
 import SkillsBg from '../assets/bgs/skills.svg'; // Import background image
 
@@ -14,9 +8,6 @@ import {
   useScroll,
   useTransform,
   motion,
-  useMotionTemplate,
-  useMotionValue,
-  animate,
 } from 'framer-motion'; // Import framer-motion functions and hooks
 
 function Skills() {
